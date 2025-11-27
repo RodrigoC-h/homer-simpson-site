@@ -1,0 +1,191 @@
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    font-size: 120%;
+    background-color: #fff8b3;
+
+    background-image: url("https://wallpapers.com/images/hd/homer-simpson-funny-7for97zc1unif0wc.jpg");
+    background-size: cover;
+    background-attachment: fixed;
+
+    margin: 0;
+    padding: 0;   
+}
+
+/* MAIN */
+main {
+    text-align: left;
+    background-color: #fff8b3;
+
+    padding: 20px; 
+    margin-left: 100px;
+    margin-right: 100px;
+    margin-top: 70px;
+
+    border: none;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+
+header {
+    text-align: center;
+    background-color: #ffd90f;
+
+    padding: 20px;
+
+    border: none;
+    border-radius: 10px;
+}
+
+header h1 {
+    margin: 0;
+}
+
+h2 {
+    margin-top: 20px;
+}
+
+.registo h2 {
+    margin-top: 30px;
+}
+
+ul {
+    margin-left: 20px;
+}
+
+hr {
+    background-color: #000000;
+
+    height: 2px;
+    margin: 20px 0;
+
+    border: none;
+}
+
+.curiosidades1 {
+    position: relative;
+}
+
+.homer-imagem {
+    position: absolute;
+    top: 0px;
+    left: 700px;
+    z-index: 10;
+
+    width: 600px;
+}
+
+.registo img {
+    display: block;
+    margin: 50px auto 30px;
+
+    border: none;
+    border-radius: 10px;
+}
+
+/* NAV */
+nav {
+    font-size: 18px;
+    background-color: #f4c900;
+    
+    padding: 20px;
+    margin-left: 100px;
+    margin-right: 100px;
+    margin-bottom: 50px;
+    
+    border-top: 2px solid #000;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+
+nav a {
+    text-decoration: none;
+    font-weight: bold;
+    color: black;
+    
+    margin: 0 10px;
+}
+
+nav a:hover {
+    color: #ff4500;
+}
+
+footer {
+    background-color: #ffd90f;
+
+    padding: 10px;
+    margin-top: 20px;
+
+    border-top: 2px solid black;
+}    
+
+/* MEDIA QUERIES */
+/* MOBILE (<= 768px) */
+@media (max-width: 768px) {
+
+    main, nav {
+        margin: 10px;
+        padding: 15px;
+    }
+
+    .homer-imagem {
+        position: relative;
+        left: 0;
+        width: 100%;
+        margin-bottom: 20px;
+    }
+
+    .registo img {
+        width: 100%;
+    }
+
+    main {
+        margin-bottom: 0px;
+    }
+
+    nav {
+        font-size: 14px;
+
+        margin-top: 0px;
+    }
+}
+
+/* TABLET (769px – 1024px) */
+@media (min-width: 769px) and (max-width: 1024px) {
+
+    main, nav {
+        margin: 40px;
+    }
+
+    .homer-imagem {
+        left: 550px;
+        width: 350px;
+
+    }
+
+    .registo img {
+        width: 80%;
+    }
+
+    main {
+        margin-bottom: 0px;
+    }
+
+    nav {
+        margin-top: 0px;
+    }
+}
+
+/* DESKTOP (>= 1025px) */
+@media (min-width: 1025px) {
+
+    main, nav {
+        margin-left: 100px;
+        margin-right: 100px;
+    }
+
+    .homer-imagem {
+        left: 700px;
+        width: 600px;
+    }
+}
